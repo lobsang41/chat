@@ -1,0 +1,14 @@
+# Core dependencies
+flask
+pyttsx3  # For TTS (lightweight, offline, works on Linux)
+speechrecognition  # For STT (pair with pyttsx3)
+pyaudio  # For microphone access (required for STT)
+opencv-python  # For camera
+pyserial  # For Arduino
+python-dotenv  # For config
+
+# Optional: AI integration
+groq  # Example AI API (replace with your choice)
+
+# WebSockets for real-time chat
+flask-socketio
